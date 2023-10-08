@@ -95,7 +95,7 @@ const LoginWithMockAPI = () => {
         </label>
         <label>
           Password:
-          <input type="password" name="password" />
+          <input type="password" name="password" autoComplete="false" />
         </label>
         <button type="submit" value="Submit">
           submit
